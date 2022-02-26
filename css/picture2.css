@@ -1,0 +1,163 @@
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+header {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+}
+header>a>.house {
+    width: 50px;
+    height: 50px;
+    left: 4px;
+    bottom: -3px;
+    position: relative;
+}
+/*----헤더끝-----*/
+section>img{
+    width: 100%;
+    height: 850.3px;
+}
+/*-----이미지끝------*/
+section>.first{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 200px;
+    left: 190px;
+    background-color: rgb(124, 46, 43);
+    border: 3px solid  white;
+}
+section>.second{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 200px;
+    left: 560px;
+    background-color: rgb(124, 46, 43);
+    border: 3px solid white;
+}
+section>.third{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 200px;
+    left: 1030px;
+    background-color: rgb(124, 46, 43);
+    border: 3px solid white;
+}
+/* 만종 시작 */
+section>.Ange>img{
+    position: absolute;
+    z-index: 999;
+    top: 35%;
+    width: auto;
+    height: 37%;
+    left: 5%;
+    border: 20px solid #dca56b;
+    border-image: url(../icon/액자.jpg) 30
+}
+section>.dabin{
+    visibility: hidden;
+    position:absolute; 
+    top:37%;
+    left: 6%;
+    padding: 10px;
+    width: 20.7%; 
+    font-size: 17.5px;
+    height: 530px;
+    z-index: 999;
+}
+.Ange:hover+.dabin {
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+section>.dabin:hover{
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+/* 우는 여인 시작 */
+section>.Woman>img{
+    position: absolute;
+    z-index: 999;
+    top: 35%;
+    width: auto;
+    height: 50%;
+    left: 33%;
+    border: 20px solid #dca56b;
+    border-image: url(../icon/액자.jpg) 30
+}
+section>.jang{
+    visibility: hidden;
+    position:absolute; 
+    top:37%;
+    left: 34%;
+    padding: 10px;
+    width: 350px; 
+    font-size: 17.5px;
+    height: 530px;
+    z-index: 999;
+}
+.Woman:hover+.jang {
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+section>.jang:hover{
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+/* 그랑드자트 시작 */
+section>.Gran>img{
+    position: absolute;
+    z-index: 999;
+    top: 35%;
+    width: auto;
+    height: 50%;
+    left: 57%;
+    border: 20px solid #dca56b;
+    border-image: url(../icon/액자.jpg) 30
+}
+section>.mung{
+    visibility: hidden;
+    position:absolute; 
+    top:37%;
+    left: 58%;
+    padding: 10px;
+    width: 350px; 
+    font-size: 17.5px;
+    height: 530px;
+    z-index: 999;
+}
+.Gran:hover+.mung {
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+section>.mung:hover{
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+/*화살표*/
+.left>img{
+    position: absolute;
+    z-index: 999;
+    border: 3px solid black;
+    border-radius: 3000px;
+    width: 3%;
+    left: 10px;
+    bottom: 380px;
+}

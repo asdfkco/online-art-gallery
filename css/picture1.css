@@ -1,0 +1,168 @@
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+header {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+}
+header>a>.house {
+    width: 50px;
+    height: 50px;
+    left: 4px;
+    bottom: -3px;
+    position: relative;
+}
+/*----헤더끝-----*/
+section>img{
+    width: 100%;
+    height: 850.3px;
+}
+/*-----이미지끝------*/
+section>.first{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 200px;
+    left: 130px;
+    background-color: rgb(124, 46, 43);
+    border: 3px solid  white;
+}
+section>.second{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 200px;
+    left: 730px;
+    background-color: rgb(124, 46, 43);
+    border: 3px solid white;
+}
+section>.third{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 200px;
+    left: 1290px;
+    background-color: rgb(124, 46, 43);
+    border: 3px solid white;
+}
+/* 아담의 창조 시작 */
+section>.Adam>img{
+    position: absolute;
+    top: 35%;
+    width: auto;
+    height: 35%;
+    left: 5%;
+    border: 20px solid #dca56b;
+    border-image: url(../icon/액자.jpg) 30
+}
+section>.dabin{
+    visibility: hidden;
+    position:absolute; 
+    top:37%;
+    left: 6%;
+    padding: 10px;
+    width: 20.7%; 
+    font-size: 17.5px;
+    height: 530px;
+}
+.Adam:hover+.dabin {
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+section>.dabin:hover{
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+/* 활짝 핀 꽃 시작*/
+section>.muje>img{
+    position: absolute;
+    top: 35%;
+    width: auto;
+    height: 35%;
+    left: 37%;
+    border: 20px solid #dca56b;
+    border-image: url(../icon/액자.jpg) 30
+}
+section>.jang{
+    visibility: hidden;
+    position:absolute; 
+    top:37%;
+    left: 38%;
+    padding: 10px;
+    width: 350px; 
+    font-size: 17.5px;
+    height: 530px;
+}
+.muje:hover+.jang {
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+section>.jang:hover{
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+/* 흰 소 시작 */
+section>.cry>img{
+    position: absolute;
+    z-index: 999;
+    top: 35%;
+    width: auto;
+    height: 35%;
+    left: 69%;
+    border: 20px solid #dca56b;
+    border-image: url(../icon/액자.jpg) 30
+}
+section>.mung{
+    visibility: hidden;
+    position:absolute; 
+    top:37%;
+    left: 70%;
+    padding: 10px;
+    width: 350px; 
+    font-size: 17.5px;
+    height: 530px;
+    z-index: 999;
+}
+.cry:hover+.mung {
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+section>.mung:hover{
+    visibility: visible;
+    animation: fade_in_show 0.5s
+}
+/*화살표*/
+.right>img{
+    position: absolute;
+    z-index: 999;
+    border: 3px solid black;
+    border-radius: 3000px;
+    width: 3%;
+    right: 10px;
+    bottom: 380px;
+}
+.left>img{
+    position: absolute;
+    z-index: 999;
+    border: 3px solid black;
+    border-radius: 3000px;
+    width: 3%;
+    left: 10px;
+    bottom: 380px;
+}

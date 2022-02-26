@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <META HTTP-EQUIV="Page-Enter" CONTENT="BlendTrans(Duration=0.5)">
+    <META HTTP-EQUIV="Page-exit" CONTENT="BlendTrans(Duration=0.5)">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>작품</title>
+    <link rel="stylesheet" href="../css/picture.css">
+    <script type="text/javascript">
+        var bDisplay = true;
+        function doDisplay() {
+            var con = document.getElementById("tips")
+            if (con.style.display == 'none') {
+                con.style.display = 'block';
+            } else {
+                con.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<!-- div하나 만들고 안에 글씨넣어서 처음엔작고 호버하면 커지게 해볼생각 있음 ㅇㅇ -->
+<!-- 배경이 검정색이거나 배경이 그림인 opcity로 글씨를 나타나나 아니면 -->
+<!-- 끊기는 zindex로 하나 div로 시도해보기-->
+
+
+<body>
+    <header>
+        <a href="../index.html"><img src="../icon/house img.png" alt="집" class="house"></a>
+    </header>
+
+    <section>
+        <a href="javascript:doDisplay()" class="tip"
+            style="position:absolute; left: 40px; top: 90px; background-color: white; border: 3px solid black; border-radius: 30px; font-size: 19px; padding: 3px;">🔎Tips</a>
+        <div id="tips"
+            style="position:absolute; top: 130px; left: 40px; background-color: white; font-size: 25px; border: 2px solid black; display: none;">
+            <strong>사진을 크게보고싶다면 사진을 클릭하세요!</strong>
+        </div>
+        <img src="../img/배____경.jpg" alt="">
+        <h2 class="first">모나리자(Mona Lisa)</h2>
+        <a class="mona"><img src="../img/모나리자(다빈치).jpg" alt="모나리자" class="Mona"></a>
+        <div class="dabin">
+            <a href="./사진들/MonaLisa.html"><span style="color: white; font-size: 14.5; z-index: 999;">
+                    <h1><strong style="color: white;">모나리자</strong></h1><br>
+                    <h3 style=" color:white;">화가 : 레오나르도 다 빈치</h3><br>
+                    레오나르도 다 빈치의 대표작을 넘어서<br>
+                    전 세계에서 가장 유명한 미술품이고,<br>
+                    현재 프랑스 파리 <br>루브르 박물관에 전시 되어 있다.<br>
+                    이 그림은 뭐라고 딱 잘라 말할 수 없는 <br>미묘한 미소가 특징인데,<br>
+                    입을 보면 웃고 있는데 눈만 보면 알 수 없다.<br>
+                </span>
+                <div
+                    style="z-index: 0; position: absolute; top: 0px; left: 0px; width: 375px; height: 550px; background-color: white; opacity: 0.3;">
+                </div>
+            </a>
+        </div>
+        <h2 class="second">무제(untitled)</h2>
+        <a class="muje"><img src="../img/무제(바스키아).jpg" alt="무제" class="Unti"></a>
+        <div class="jang">
+            <a href="./사진들/Untitled.html"><span style="color: white; font-size: 14.5; z-index: 999;">
+                    <h1><strong style="color: white;">무제</strong></h1><br>
+                    <h3 style=" color:white;">화가 : 장 미셸 바스키아</h3><br>
+                    '1200억짜리 낙서'로 불리는 이 작품은 <br>
+                    푸른색 바탕에 흑인을 연상시키는 검은색,<br>
+                    그리고 빨강, 노랑, 흰색을 덧칠해 <br>
+                    마치 악마를 묘사한 듯한 느낌을 준다.
+                    여기에는 미국 사회의 인종차별, <br>
+                    현대인의 온갖 욕망과 위선을<br>
+                    강렬한 터치와 색채 미학으로 승화한<br>
+                    바스키아의 의도가 뚜렷하게 드러나 있다.
+                </span>
+                <div
+                    style="z-index: 0; position: absolute; top: 0px; left: 0px; width: 520px; height: 550px; background-color: white; opacity: 0.3;">
+                </div>
+            </a>
+        </div>
+        <h2 class="third">뭉크(The Scream of Nature)</h2>
+        <a class="cry"><img src="../img/절규(뭉크).jpg" alt="절규" class="Scream"></a>
+        <div class="mung">
+            <a href="./사진들/The Scream.html"><span style="color: white; font-size: 14.5; z-index: 999;">
+                    <h1><strong style="color: white;">절규</strong></h1><br>
+                    <h3 style=" color:white;">화가 : 에드바르 뭉크</h3><br>
+                    19세기 말쯤에 그려진 작품.<br>
+                    화자의 절망적인 심리상태를<br>
+                    역동적인 곡선으로 표현했다.<br>
+                    공포스러우면서도 놀라는 표정과<br>
+                    흘러가는 듯한 배경을 그려 내어<br>
+                    지금도 여러 모로 회자되고,<br>
+                    많이 패러디되는 뭉크의 대표 작품이다.
+                </span>
+                <div
+                    style="z-index: 0; position: absolute; top: 0px; left: 0px; width: 440px; height: 550px; background-color: white; opacity: 0.3;">
+                </div>
+            </a>
+        </div>
+        <a href="./picture1.html" class="right"><img src="../icon/오른쪽화살표.png" alt="right"></a>
+
+    </section>
+
+</body>
+
+</html>
